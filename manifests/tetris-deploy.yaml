@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: tetris
-          image: magicalyak/docker-games
+          image: magicalyak/docker-games:rebelchess
           #image: nasi101/tetris # Replace with the actual image tag
           ports:
             - containerPort: 80 # Replace with the port your Tetris game listens on
