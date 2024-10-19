@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: tetris
-          image: magicalyak/docker-games:donkeykong ## change containerPort and targetport (service.yaml) to 8000
+          image: magicalyak/docker-games:streetfighter2 ## change containerPort and targetport (service.yaml) to 8000
           #image: nasi101/tetris # change containerPort and targetport (service.yaml) to 80
           ports:
             - containerPort: 8000 # Replace with the port your Tetris game listens on
